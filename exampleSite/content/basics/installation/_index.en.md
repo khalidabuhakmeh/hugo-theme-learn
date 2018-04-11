@@ -60,6 +60,8 @@ By opening the given file, you should see the property `chapter=true` on top, me
 
 By default all chapters and pages are created as draft. If you want to render these pages, remove the property `draft: true` from the metadata.
 
+Note: This may not work if you have an existing `default.md` in your new hugo site's `archetypes` directory. To use this theme's archetypes, first delete the `default.md` found under `/archetypes`.
+
 ## Create your first content pages
 
 Then, create content pages inside the previous chapter. Here are two ways to create content in the chapter :
